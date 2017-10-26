@@ -56,9 +56,9 @@ header {
 /* end navBar*/
 #main-content {
     z-index: 1;
-    background-color: yellow;
-    padding: 0;
-    height: 435px;
+    background-color: #22aaec;
+    padding: 2px 0px 0px 0px;
+    height: 439px;
     width: 1020px;
 
 }
@@ -81,28 +81,34 @@ header {
 
 @media (min-width: 1200px) {
     #main-content {
+        padding: 2px 0px 0px 0px;
         z-index: 1;
-        background-color: yellow;
+        background-color: #22aaec;
         width: 100%;
-
+        height: 570px;
+        text-align: center;
     }
 
-    /*.imageMain {*/
-        /*width: 2040px;*/
-        /*height:870vw;*/
-        /*background-image: url("../images/main-img2x.png");*/
-    /*}*/
+    .imageMain {
+        width: 1326px;
+        height: 566px;
+        background-image: url("../images/main-img2x.png");
+    }
 }
 
 @media (min-width: 992px)and (max-width: 1199px) {
     #main-content {
+        padding: 2px 0px 0px 0px;
         z-index: 1;
-        background-color: yellow;
+        background-color: #22aaec;
         width: 100%;
+        height: 515px;
 
     }
 
-    /*.imageMain {*/
-       /*background-image: url("../images/main-img1_5.png");*/
-    /*}*/
+    .imageMain {
+        width: 1199px;
+        height: 511px;
+        background-image: url("../images/main-img1_5.png");
+    }
 }
