@@ -1,0 +1,108 @@
+/*navBar*/
+
+.navBar {
+    background-color: #ffffff;
+}
+
+#header-nav {
+    border-radius: 0;
+    margin: 0;
+
+}
+
+.navigationMenu {
+    text-align: center;
+}
+
+header {
+    margin: 0;
+}
+
+#navbarBrand {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: #076e9f;
+    font-size: 32px;
+    font-family: 'League Gothic';
+}
+
+.brandLetter {
+
+    color: #22aaec;
+}
+
+.icon {
+    right: 30px;
+    position: absolute;
+}
+
+.buttMenu {
+    background-color: #ffffff;
+    color: #9b9b9b;
+    font-family: ' Arial', sans-serif;
+    font-size: 10px;
+
+    border-radius: 0;
+    width: 63px;
+    height: 21px;
+}
+
+.active {
+    background-color: #0772a3;
+    color: white;
+}
+
+/* end navBar*/
+#main-content {
+    z-index: 1;
+    background-color: yellow;
+    padding: 0;
+    height: 435px;
+    width: 1020px;
+
+}
+
+.s {
+    z-index: 2;
+}
+
+.notice {
+    z-index: 3;
+    margin-right: 60px;
+    margin-top: 20px;
+    float: left;
+    height: 80px;
+    width: 200px;
+    background: red;
+    border-top-left-radius: 50px 50px;
+    border-bottom-left-radius: 50px 50px;
+}
+
+@media (min-width: 1200px) {
+    #main-content {
+        z-index: 1;
+        background-color: yellow;
+        width: 100%;
+
+    }
+
+    /*.imageMain {*/
+        /*width: 2040px;*/
+        /*height:870vw;*/
+        /*background-image: url("../images/main-img2x.png");*/
+    /*}*/
+}
+
+@media (min-width: 992px)and (max-width: 1199px) {
+    #main-content {
+        z-index: 1;
+        background-color: yellow;
+        width: 100%;
+
+    }
+
+    /*.imageMain {*/
+       /*background-image: url("../images/main-img1_5.png");*/
+    /*}*/
+}
