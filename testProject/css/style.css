@@ -38,11 +38,11 @@ header {
 }
 
 .buttMenu {
+    padding-top: 3px;
     background-color: #ffffff;
     color: #9b9b9b;
     font-family: ' Arial', sans-serif;
     font-size: 10px;
-
     border-radius: 0;
     width: 63px;
     height: 21px;
@@ -107,6 +107,17 @@ header {
         height: 120px;
         width: inherit;
         background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #navbarBrand {
+        font-size: 64px;
+        font-family: 'League Gothic';
+    }
+
+    .buttMenu {
+        font-size: 15px;
+        width: 90px;
+        height: 30px;
     }
 }
 
