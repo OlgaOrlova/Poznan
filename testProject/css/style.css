@@ -374,7 +374,17 @@ p#nameMainBanerSecond {
         width: 164px;
     }
 
-    #post1Name {
+    #post2 {
+        position: relative;
+        width: 164px;
+    }
+
+    #post3 {
+        position: relative;
+        width: 164px;
+    }
+
+    .post1Name {
 
         font-family: Arial, sans-serif;
         font-weight: bold;
@@ -384,6 +394,20 @@ p#nameMainBanerSecond {
         right: 0;
     }
 
+    .post1Name1 {
+        position: absolute;
+        top: 14px;
+        right: 16px;
+    }
+
+    .comments {
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        font-style: italic;
+        color: #5c5c5c;;
+        margin-left: 2px;
+    }
+
     #post1Img {
         left: 0;
         position: absolute;
@@ -391,13 +415,21 @@ p#nameMainBanerSecond {
         height: 40px;
     }
 
-    #post2 {
-
+    #post2Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
     }
 
-    .ds {
-
+    #post3Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
     }
+
+
 
 
     /*end left block*/
