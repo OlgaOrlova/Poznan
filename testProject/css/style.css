@@ -2,6 +2,10 @@
 body {
     background-color: #ffffff;
 }
+
+html {
+    width: 100%;
+}
 .navBar {
     background-color: #ffffff;
 }
@@ -9,6 +13,7 @@ body {
 #header-nav {
     border-radius: 0;
     margin: 0;
+    background-color: yellow;
 
 }
 
@@ -57,15 +62,7 @@ header {
 
 /* end navBar*/
 /*section 1*/
-#main-content {
-    position: relative;
-    z-index: 1;
-    background-color: #22aaec;
-    padding: 2px 0px 0px 0px;
-    height: 439px;
-    width: 1020px;
 
-}
 
 #blocBar {
     z-index: 1;
@@ -142,6 +139,17 @@ p#nameMainBanerSecond {
     position: absolute;
     width: 100%;
 }
+
+/*fddgmdmgg*/
+
+#blockOne {
+    background-color: yellow;
+}
+
+#blockTwo {
+    background-color: #8eff2e;
+}
+
 /*end section 1*/
 /*start section 2*/
 /*POSITION OF BLOCKS*/
@@ -211,6 +219,38 @@ p#nameMainBanerSecond {
 
 /*end section 2*/
 @media (min-width: 1200px) {
+    /*fddgdg*/
+    #section2 {
+        background-color: pink;
+        width: 100%;
+        height: 556px;
+    }
+
+    #blockOne {
+        background-color: yellow;
+        width: 301px;
+        height: 567px;
+    }
+
+    #blockTwo {
+        position: relative;
+        background-color: #8eff2e;
+        height: 567px;
+        width: 1029px;
+    }
+
+    #centerBlock {
+        position: absolute;
+        background-color: deeppink;
+        width: 982px;
+        height: 577px;
+        bottom: 0;
+        left: 0;
+        z-index: 6;
+    }
+
+    /*endDSFSDGDS*/
+    /*fddgdg*/
     #main-content {
         position: relative;
         padding: 2px 0px 0px 0px;
@@ -222,7 +262,7 @@ p#nameMainBanerSecond {
     }
 
     .imageMain {
-        width: 1326px;
+        width: inherit;
         height: 566px;
         background-image: url("../images/main-img2x.png");
     }
@@ -283,6 +323,36 @@ p#nameMainBanerSecond {
 }
 
 @media (min-width: 992px)and (max-width: 1199px) {
+
+    /*DSFSDGDS*/
+    #section2 {
+        position: relative;
+        background-color: pink;
+        width: 100%;
+        height: 567px;
+
+    }
+
+    #blockOne {
+
+        background-color: yellow;
+        width: 272px;
+        height: 567px;
+    }
+
+    #centerBlock {
+        position: absolute;
+        background-color: deeppink;
+        width: 680px;
+        height: 577px;
+        bottom: 0;
+        left: 273px;
+        z-index: 6;
+    }
+
+    /*endDSFSDGDS*/
+
+
     #main-content {
         position: relative;
         padding: 2px 0px 0px 0px;
@@ -294,8 +364,8 @@ p#nameMainBanerSecond {
     }
 
     .imageMain {
-        width: 1199px;
-        height: 511px;
+        width: inherit;
+        height: 515px;
         background-image: url("../images/main-img1_5.png");
     }
 
@@ -304,7 +374,7 @@ p#nameMainBanerSecond {
         bottom: 0;
         position: absolute;
         height: 120px;
-        width: 1199px;
+        width: inherit;
         background-color: rgba(0, 0, 0, 0.5);
     }
 
@@ -316,6 +386,15 @@ p#nameMainBanerSecond {
         z-index: 1;
         margin: auto;
 
+    }
+
+    #blockNotice {
+        z-index: 2;
+        position: absolute;
+        bottom: 0;
+        width: inherit;
+        padding-left: 30px;
+        padding-bottom: 26px;
     }
 
     .notice {
@@ -340,6 +419,39 @@ p#nameMainBanerSecond {
 }
 
 @media (min-width: 768px)and (max-width: 991px) {
+
+    /*DSFSDGDS*/
+    /*DSFSDGDS*/
+    #section2 {
+        position: relative;
+        background-color: pink;
+        width: 100%;
+        height: 567px;
+
+    }
+
+    #blockOne {
+
+        background-color: yellow;
+        width: 272px;
+        height: 567px;
+    }
+
+    #centerBlock {
+        position: absolute;
+        background-color: deeppink;
+        width: 443px;
+        height: 577px;
+        bottom: 0;
+        left: 273px;
+        z-index: 6;
+    }
+
+    /*endDSFSDGDS*/
+    /*endDSFSDGDS*/
+    .navigationMenu {
+        text-align: center;
+    }
     #blockNotice {
         z-index: 2;
         position: absolute;
@@ -357,6 +469,18 @@ p#nameMainBanerSecond {
 
     }
 
+    #navbarBrand {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        color: #076e9f;
+        font-size: 32px;
+        font-family: 'League Gothic';
+    }
+
+    #navbarBrand {
+
+    }
     .noticeImg {
         height: 52px;
     }
@@ -369,6 +493,15 @@ p#nameMainBanerSecond {
         height: 435px;
 
 
+    }
+
+    #blocBar {
+        z-index: 1;
+        bottom: 0;
+        position: absolute;
+        height: 120px;
+        width: inherit;
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
     #mainBaner {
@@ -401,7 +534,7 @@ p#nameMainBanerSecond {
         width: 100%;
     }
     .imageMain {
-        width: 1020px;
+        width: inherit;
         height: 435px;
 
     }
@@ -431,13 +564,37 @@ p#nameMainBanerSecond {
 }
 
 @media (max-width: 767px) {
+    #section2 {
+        position: relative;
+        background-color: pink;
+        width: 100%;
+        height: 567px;
+
+    }
+
+    #blockOne {
+
+        background-color: yellow;
+        width: 200px;
+        height: 567px;
+    }
+
+    #centerBlock {
+        position: absolute;
+        background-color: deeppink;
+        width: 278px;
+        height: 577px;
+        bottom: 0;
+        left: 200px;
+        z-index: 6;
+    }
     #blockNotice {
         z-index: 2;
         position: absolute;
         bottom: 0;
         width: inherit;
         padding-left: 15px;
-        padding-bottom: 10px;
+      
     }
 
     .notice {
@@ -476,7 +633,7 @@ p#nameMainBanerSecond {
     }
 
     .imageMain {
-        width: 1020px;
+        width: inherit;
         height: 435px;
 
     }
@@ -485,7 +642,7 @@ p#nameMainBanerSecond {
         bottom: 0;
         position: absolute;
         height: 120px;
-        width: 1199px;
+        width: inherit;
         background-color: rgba(0, 0, 0, 0.5);
     }
 
