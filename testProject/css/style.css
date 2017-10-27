@@ -429,7 +429,35 @@ p#nameMainBanerSecond {
         height: 40px;
     }
 
+    .tableInfo {
+        border-collapse: collapse;
+    }
 
+    .tableInfo th {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        background-color: #076e9f;
+        color: #ffffff;
+    }
+
+    .cell {
+        background-color: #c7e9fa;
+        width: 40px;
+        height: 19px;
+        text-align: center;
+        color: #5e9abe;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+    }
+
+    .cellBlue {
+        background-color: #b1e1f8;
+    }
+
+    table, td, th {
+        border: 1px solid #ffffff;
+    }
 
 
     /*end left block*/
