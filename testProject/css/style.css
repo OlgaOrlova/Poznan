@@ -219,33 +219,29 @@ p#nameMainBanerSecond {
 
 /*end section 2*/
 @media (min-width: 1200px) {
-    /*fddgdg*/
+    /*DSFSDGDS*/
     #section2 {
+        position: relative;
         background-color: pink;
         width: 100%;
-        height: 556px;
+        height: 567px;
+
     }
 
     #blockOne {
-        background-color: yellow;
-        width: 301px;
+        padding: 0;
+        background-color: #ffffff;
+        width: 272px;
         height: 567px;
-    }
-
-    #blockTwo {
-        position: relative;
-        background-color: #8eff2e;
-        height: 567px;
-        width: 1029px;
     }
 
     #centerBlock {
         position: absolute;
         background-color: deeppink;
-        width: 982px;
+        right: 35px;
         height: 577px;
         bottom: 0;
-        left: 0;
+        left: 273px;
         z-index: 6;
     }
 
@@ -268,6 +264,7 @@ p#nameMainBanerSecond {
     }
 
     #blocBar {
+
         z-index: 1;
         bottom: 0;
         position: absolute;
@@ -298,16 +295,50 @@ p#nameMainBanerSecond {
     }
 
     .noticeImg {
-        height: 69px;
+        height: 94px;
+
+    }
+
+    #blockNotice {
+        z-index: 2;
+        position: absolute;
+        bottom: 0;
+        width: inherit;
+        padding-left: 46px;
+        padding-bottom: 15px;
     }
 
     .notice {
         text-align: left;
         background: #ebebea;
-        height: 69px;
-        width: 189px;
+        height: 94px;
+        width: 259px;
     }
 
+    /*left block*/
+    #itemOne {
+        height: 172px;
+        background-color: #ffffff;
+    }
+
+    #itemTwo {
+        height: 218px;
+        background-color: #ffffff;
+    }
+
+    #itemThree {
+        height: 177px;
+        background-color: #ffffff;
+    }
+
+    .nameItem {
+        width: 236px;
+        margin-left: 36px;
+        border-right: 1px dotted #d5d5d5;
+        border-bottom: 1px dotted #d5d5d5;
+    }
+
+    /*end left block*/
     /*#meinColumn {*/
     /*z-index: 4;*/
     /*margin-right: 37px;*/
@@ -343,7 +374,7 @@ p#nameMainBanerSecond {
     #centerBlock {
         position: absolute;
         background-color: deeppink;
-        width: 680px;
+        right: 35px;
         height: 577px;
         bottom: 0;
         left: 273px;
@@ -440,9 +471,9 @@ p#nameMainBanerSecond {
     #centerBlock {
         position: absolute;
         background-color: deeppink;
-        width: 443px;
         height: 577px;
         bottom: 0;
+        right: 35px;
         left: 273px;
         z-index: 6;
     }
@@ -579,13 +610,23 @@ p#nameMainBanerSecond {
         height: 567px;
     }
 
+    /*#centerBlock {*/
+    /*position: absolute;*/
+    /*background-color: deeppink;*/
+    /*width: 278px;*/
+    /*height: 577px;*/
+    /*bottom: 0;*/
+    /*left: 200px;*/
+    /*z-index: 6;*/
+    /*}*/
     #centerBlock {
         position: absolute;
         background-color: deeppink;
-        width: 278px;
+
         height: 577px;
         bottom: 0;
         left: 200px;
+        right: 35px;
         z-index: 6;
     }
     #blockNotice {
@@ -594,7 +635,7 @@ p#nameMainBanerSecond {
         bottom: 0;
         width: inherit;
         padding-left: 15px;
-      
+
     }
 
     .notice {
