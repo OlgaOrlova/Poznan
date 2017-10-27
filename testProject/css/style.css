@@ -219,6 +219,9 @@ p#nameMainBanerSecond {
 
 /*end section 2*/
 @media (min-width: 1200px) {
+    * {
+        box-sizing: border-box;
+    }
     /*DSFSDGDS*/
     #section2 {
         position: relative;
@@ -229,8 +232,8 @@ p#nameMainBanerSecond {
     }
 
     #blockOne {
-        padding: 0;
-        background-color: #ffffff;
+        padding-top: 15px;
+        background-color: #FFFFFF;
         width: 272px;
         height: 567px;
     }
@@ -317,12 +320,12 @@ p#nameMainBanerSecond {
 
     /*left block*/
     #itemOne {
-        height: 172px;
+        height: 165px;
         background-color: #ffffff;
     }
 
     #itemTwo {
-        height: 218px;
+        height: 225px;
         background-color: #ffffff;
     }
 
@@ -332,11 +335,70 @@ p#nameMainBanerSecond {
     }
 
     .nameItem {
+        font-family: 'League Gothic Condensed';
+        color: #076e9f;
         width: 236px;
-        margin-left: 36px;
+        padding: 19px 17px 0 0;
+        margin: 0 0 0 36px;
         border-right: 1px dotted #d5d5d5;
         border-bottom: 1px dotted #d5d5d5;
     }
+
+    .nameItem h2 {
+        margin: 0;
+        margin-bottom: 6px;
+
+    }
+
+    #sidebarDescription {
+        text-align: left;
+        color: #5c5c5c;
+        font-size: 10px;
+        font-family: Arial, sans-serif;
+    }
+
+    .letter {
+        color: #076e9f;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .relatedPostImg {
+        margin-top: 11px;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post1 {
+        position: relative;
+        width: 164px;
+    }
+
+    #post1Name {
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: #5c5c5c;
+        position: absolute;
+        right: 0;
+    }
+
+    #post1Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post2 {
+
+    }
+
+    .ds {
+
+    }
+
 
     /*end left block*/
     /*#meinColumn {*/
