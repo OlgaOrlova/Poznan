@@ -1,0 +1,65 @@
+@media (min-width: 1200px) {
+    * {
+        box-sizing: border-box;
+    }
+
+}
+
+@media (min-width: 992px)and (max-width: 1199px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    #map {
+        padding-top: 5px;
+        background-color: #FFFFFF;
+
+        width: inherit;
+
+    }
+
+    #map h1 {
+        margin-left: 45px;
+        padding-bottom: 15px;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 32px;
+        color: #076e9f;
+    }
+
+    #blockMap {
+        width: inherit;
+        height: 300px;
+        background-color: black;
+        margin-bottom: 16px;
+    }
+
+    #nameLogo {
+        position: relative;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 16px;
+        color: #1677a5;
+        padding-bottom: 16px;
+        margin-left: 45px;
+        margin-right: 45px;
+        border-bottom: 1px dotted #d5d5d5
+    }
+
+    .otherColourL {
+        color: #3db4ee;
+    }
+
+    .footInfo {
+        margin-top: 10px;
+        font-family: " Arial", sans-serif;
+        font-size: 10px;
+        color: #787878;
+        bottom: 3px;
+    }
+
+    .footerMenu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 300px;
+    }
+}
