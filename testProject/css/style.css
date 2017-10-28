@@ -225,7 +225,7 @@ p#nameMainBanerSecond {
     /*DSFSDGDS*/
     #section2 {
         position: relative;
-        background-color: pink;
+        background-color: #FFFFFF;
         width: 100%;
         height: 567px;
 
@@ -241,7 +241,7 @@ p#nameMainBanerSecond {
     /*center block*/
     #centerBlock {
         position: absolute;
-        background-color: deeppink;
+        background-color: #FFFFFF;
         right: 35px;
         height: 577px;
         bottom: 0;
@@ -316,6 +316,130 @@ p#nameMainBanerSecond {
     }
 
     /*end center block*/
+    /*Second main senter post*/
+    #secondCenterPost {
+        border-bottom: 1px dotted #d5d5d5;
+        background-color: #FFFFFF;
+        width: inherit;
+        height: 379px;
+        padding-right: 0;
+    }
+
+    .cardMain {
+
+        margin-right: 0;
+        background-color: #eaeaea;
+        width: 363px;
+        height: 215px;
+        margin-left: 17px;
+        margin-top: 22px;
+        border-top-left-radius: 10px 10px;
+        border-bottom-left-radius: 10px 10px;
+        border-bottom-right-radius: 10px 10px;
+    }
+
+    #ban {
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.51);
+        margin-top: 32px;
+        background-color: #eaeaea;
+        width: 743px;
+        margin-left: 17px;
+        height: 83px;
+        border-bottom-left-radius: 10px 10px;
+        border-bottom-right-radius: 10px 10px;
+    }
+
+    #ban p {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #5c5c5c;
+        margin-top: 30px;
+    }
+
+    #card1 {
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.51);
+        position: relative;
+        padding: 0;
+    }
+
+    #card2 {
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.51);
+        position: relative;
+        padding: 0;
+    }
+
+    #card1Info {
+
+        position: relative;
+        margin: 0;
+        bottom: 0;
+        background-color: #f4f3f3;
+        position: absolute;
+        width: inherit;
+        height: 34px;
+        border-bottom-left-radius: 10px 10px;
+        border-bottom-right-radius: 10px 10px;
+    }
+
+    #card1 h2 {
+        margin-top: 15px;
+        margin-left: 27px;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 25px;
+        color: #257faa;
+        margin-bottom: 7px;
+
+    }
+
+    #card2 h2 {
+        margin-top: 15px;
+        margin-left: 27px;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 25px;
+        color: #257faa;
+        margin-bottom: 7px;
+
+    }
+
+    .txt {
+        width: 259px;
+        text-align: left;
+        margin-left: 27px;
+        font-size: 10px;
+        font-family: Arial, sans-serif;
+        color: #5c5c5c;
+        margin-bottom: 10px;
+    }
+
+    #icon {
+        position: absolute;
+        bottom: 5px;
+        right: 10px;
+    }
+
+    #icon2 {
+        position: absolute;
+        bottom: 5px;
+        right: 10px;
+    }
+
+    .colorLetter {
+        color: #6092b3;
+    }
+
+    #card2Info {
+        margin: 0;
+        bottom: 0;
+        background-color: #f4f3f3;
+        height: 34px;
+        position: absolute;
+        width: inherit;
+        border-bottom-left-radius: 10px 10px;
+        border-bottom-right-radius: 10px 10px;
+    }
+
+    /*END Second main senter post*/
     /*endDSFSDGDS*/
     /*fddgdg*/
     #main-content {
@@ -398,14 +522,14 @@ p#nameMainBanerSecond {
     }
 
     #itemThree {
-        height: 177px;
-        background-color: #ffffff;
+        height: 162px;
+        background-color: #FFFFFF;
     }
 
     .nameItem {
         font-family: 'League Gothic Condensed';
         color: #076e9f;
-        width: 236px;
+        width: 222px;
         padding: 19px 17px 0 0;
         margin: 0 0 0 36px;
         border-right: 1px dotted #d5d5d5;
