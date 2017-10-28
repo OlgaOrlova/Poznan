@@ -1,0 +1,315 @@
+@media (min-width: 1200px) {
+    /*center block*/
+    #centerBlock {
+        position: absolute;
+        background-color: #FFFFFF;
+        right: 35px;
+        height: 577px;
+        bottom: 0;
+        left: 273px;
+        z-index: 6;
+    }
+
+    #mainPost {
+        position: relative;
+        padding: 30px 0px 51px 12px;
+        height: 198px;
+        background-color: #ffffff;
+        border-right: 1px dotted #d5d5d5;
+        border-bottom: 1px dotted #d5d5d5;
+        border-left: 1px dotted #d5d5d5;
+        border-top: 2px solid #22a1de;
+    }
+
+    h2#mainPosHeading {
+        font-family: 'League Gothic Condensed', sans-serif;
+        font-size: 42px;
+        color: #076e9f;
+        margin: 0 17px 0 0;
+
+    }
+
+    #centerInfoBlock {
+        position: relative;
+        background-color: #ffffff;
+        margin-bottom: 0px;
+    }
+
+    #postMeta {
+        left: 0;
+        position: absolute;
+        background-color: #ffffff;
+        width: 112px;
+    }
+
+    #postText {
+        position: absolute;
+        left: 130px;
+        font-family: " Arial", sans-serif;
+        font-size: 13px;
+        color: #696969;
+        text-align: left;
+        width: 700px;
+        height: 120px;
+        background-color: #ffffff;
+    }
+
+    #mainBtn {
+        font-family: " Arial", sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: #ffffff;
+        width: 72px;
+        height: 23px;
+        background-color: #0773a4;
+        border-radius: 0;
+        margin-top: 25px;
+        box-shadow: 0 4px 1px -1px #00141e;
+
+    }
+
+    #fotterPostMeta {
+        position: absolute;
+        right: -5px;
+        bottom: 12px;
+        width: 179px;
+        margin-left: 849px;
+
+    }
+
+    /*end center block*/
+}
+
+@media (min-width: 992px)and (max-width: 1199px) {
+    /*center block*/
+    #centerBlock {
+        position: absolute;
+        background-color: #FFFFFF;
+        right: 35px;
+        height: 577px;
+        bottom: 0;
+        left: 273px;
+        z-index: 6;
+    }
+
+    #mainPost {
+        position: relative;
+        padding: 30px 0px 51px 12px;
+        height: 198px;
+        background-color: #ffffff;
+        border-right: 1px dotted #d5d5d5;
+        border-bottom: 1px dotted #d5d5d5;
+        border-left: 1px dotted #d5d5d5;
+        border-top: 2px solid #22a1de;
+    }
+
+    h2#mainPosHeading {
+        font-family: 'League Gothic Condensed', sans-serif;
+        font-size: 42px;
+        color: #076e9f;
+        margin: 0 17px 0 0;
+
+    }
+
+    #centerInfoBlock {
+        position: relative;
+        background-color: #ffffff;
+        margin-bottom: 0px;
+    }
+
+    #postMeta {
+        left: 0;
+        position: absolute;
+        background-color: #ffffff;
+        width: 112px;
+    }
+
+    #postText {
+        position: absolute;
+        left: 130px;
+        font-family: " Arial", sans-serif;
+        font-size: 10px;
+        color: #696969;
+        text-align: left;
+        width: 510px;
+        height: 120px;
+        background-color: #FFFFFF;
+    }
+
+    #mainBtn {
+        font-family: " Arial", sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: #ffffff;
+        width: 72px;
+        height: 23px;
+        background-color: #0773a4;
+        border-radius: 0;
+        margin-top: 25px;
+        box-shadow: 0 4px 1px -1px #00141e;
+
+    }
+
+    #fotterPostMeta {
+        position: absolute;
+        right: -5px;
+        bottom: 12px;
+        width: 179px;
+        margin-left: 849px;
+
+    }
+
+    /*end center block*/
+}
+
+@media (min-width: 768px)and (max-width: 991px) {
+    /*center block*/
+    #mainPost {
+        position: relative;
+        padding: 30px 0px 51px 12px;
+        height: 198px;
+        background-color: #ffffff;
+        border-right: 1px dotted #d5d5d5;
+        border-bottom: 1px dotted #d5d5d5;
+        border-left: 1px dotted #d5d5d5;
+        border-top: 2px solid #22a1de;
+    }
+
+    h2#mainPosHeading {
+        font-family: 'League Gothic Condensed', sans-serif;
+        font-size: 32px;
+        color: #076e9f;
+        margin: 0 17px 0 0;
+
+    }
+
+    #centerInfoBlock {
+        position: relative;
+        background-color: #ffffff;
+        margin-bottom: 0px;
+    }
+
+    #postMeta {
+        left: 0;
+        position: absolute;
+        background-color: #ffffff;
+        width: 112px;
+    }
+
+    #postText {
+        position: absolute;
+        left: 130px;
+        font-family: " Arial", sans-serif;
+        font-size: 10px;
+        color: #696969;
+        text-align: left;
+        width: 270px;
+        height: 100px;
+        background-color: #FFFFFF;
+    }
+
+    #mainBtn {
+        font-family: " Arial", sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: #ffffff;
+        width: 72px;
+        height: 23px;
+        background-color: #0773a4;
+        border-radius: 0;
+        margin-top: 15px;
+        box-shadow: 0 4px 1px -1px #00141e;
+
+    }
+
+    #fotterPostMeta {
+        position: absolute;
+        right: -5px;
+        bottom: 6px;
+        width: 159px;
+        margin-left: 849px;
+
+    }
+
+    #fotoMeta {
+        width: 159px;
+    }
+
+    /*end center block*/
+}
+
+@media (max-width: 767px) {
+    /*center block*/
+    #mainPost {
+        position: relative;
+        padding: 10px 0px 51px 12px;
+        height: 198px;
+        background-color: #ffffff;
+        border-right: 1px dotted #d5d5d5;
+        border-bottom: 1px dotted #d5d5d5;
+        border-left: 1px dotted #d5d5d5;
+        border-top: 2px solid #22a1de;
+    }
+
+    h2#mainPosHeading {
+        font-family: 'League Gothic Condensed', sans-serif;
+        font-size: 25px;
+        color: #076e9f;
+        margin: 0 0 0 0;
+
+    }
+
+    #centerInfoBlock {
+        position: relative;
+        background-color: #ffffff;
+        margin-bottom: 0px;
+    }
+
+    #postMeta {
+        left: 0;
+        position: absolute;
+        background-color: #ffffff;
+        width: 112px;
+    }
+
+    #postText {
+        position: absolute;
+        left: 130px;
+        font-family: " Arial", sans-serif;
+        font-size: 8px;
+        color: #696969;
+        text-align: left;
+        width: 200px;
+        height: 100px;
+        background-color: #FFFFFF;
+    }
+
+    #mainBtn {
+        font-family: " Arial", sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: #ffffff;
+        width: 72px;
+        height: 23px;
+        background-color: #0773a4;
+        border-radius: 0;
+        margin-top: 15px;
+        box-shadow: 0 4px 1px -1px #00141e;
+
+    }
+
+    #fotterPostMeta {
+        position: absolute;
+        right: -5px;
+        bottom: 6px;
+        width: 159px;
+        margin-left: 849px;
+
+    }
+
+    #fotoMeta {
+        width: 159px;
+    }
+
+    /*end center block*/
+}

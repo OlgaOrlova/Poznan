@@ -1,0 +1,606 @@
+@media (min-width: 1200px) {
+    /*left block*/
+    #itemOne {
+        height: 165px;
+        background-color: #ffffff;
+    }
+
+    div#blockOne {
+        border-top: 1px solid #22a1de;
+    }
+
+    #itemTwo {
+        height: 225px;
+        background-color: #ffffff;
+    }
+
+    #itemThree {
+        height: 162px;
+        background-color: #FFFFFF;
+    }
+
+    .nameItem {
+        font-family: 'League Gothic Condensed';
+        color: #076e9f;
+        width: 222px;
+        padding: 19px 17px 0 0;
+        margin: 0 0 0 36px;
+        border-right: 1px dotted #d5d5d5;
+        border-bottom: 1px dotted #d5d5d5;
+    }
+
+    .nameItem h2 {
+        margin: 0;
+        margin-bottom: 6px;
+
+    }
+
+    #sidebarDescription {
+        text-align: left;
+        color: #5c5c5c;
+        font-size: 10px;
+        font-family: Arial, sans-serif;
+    }
+
+    .letter {
+        color: #076e9f;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .relatedPostImg {
+        margin-top: 11px;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post1 {
+        position: relative;
+        width: 164px;
+    }
+
+    #post2 {
+        position: relative;
+        width: 164px;
+    }
+
+    #post3 {
+        position: relative;
+        width: 164px;
+    }
+
+    .post1Name {
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: #5c5c5c;
+        position: absolute;
+        right: 0;
+    }
+
+    .post1Name1 {
+        position: absolute;
+        top: 14px;
+        right: 16px;
+    }
+
+    .comments {
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        font-style: italic;
+        color: #5c5c5c;;
+        margin-left: 2px;
+    }
+
+    #post1Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post2Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post3Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    .tableInfo {
+        border-collapse: collapse;
+    }
+
+    .tableInfo th {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        background-color: #076e9f;
+        color: #ffffff;
+    }
+
+    .cell {
+        background-color: #c7e9fa;
+        width: 40px;
+        height: 19px;
+        text-align: center;
+        color: #5e9abe;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+    }
+
+    .cellBlue {
+        background-color: #b1e1f8;
+    }
+
+    table, td, th {
+        border: 1px solid #ffffff;
+    }
+
+    /*end left block*/
+}
+
+@media (min-width: 992px)and (max-width: 1199px) {
+    /*left block*/
+    #itemOne {
+        height: 165px;
+        background-color: #ffffff;
+    }
+
+    div#blockOne {
+        border-top: 1px solid #22a1de;
+    }
+
+    #itemTwo {
+        height: 225px;
+        background-color: #ffffff;
+    }
+
+    #itemThree {
+        height: 177px;
+        background-color: #ffffff;
+    }
+
+    .nameItem {
+        font-family: 'League Gothic Condensed';
+        color: #076e9f;
+        width: 236px;
+        padding: 19px 17px 0 0;
+        margin: 0 0 0 36px;
+        border-right: 1px dotted #d5d5d5;
+        border-bottom: 1px dotted #d5d5d5;
+    }
+
+    .nameItem h2 {
+        margin: 0;
+        margin-bottom: 6px;
+
+    }
+
+    #sidebarDescription {
+        text-align: left;
+        color: #5c5c5c;
+        font-size: 10px;
+        font-family: Arial, sans-serif;
+    }
+
+    .letter {
+        color: #076e9f;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .relatedPostImg {
+        margin-top: 11px;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post1 {
+        position: relative;
+        width: 164px;
+    }
+
+    #post2 {
+        position: relative;
+        width: 164px;
+    }
+
+    #post3 {
+        position: relative;
+        width: 164px;
+    }
+
+    .post1Name {
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: #5c5c5c;
+        position: absolute;
+        right: 0;
+    }
+
+    .post1Name1 {
+        position: absolute;
+        top: 14px;
+        right: 16px;
+    }
+
+    .comments {
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        font-style: italic;
+        color: #5c5c5c;;
+        margin-left: 2px;
+    }
+
+    #post1Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post2Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post3Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    .tableInfo {
+        border-collapse: collapse;
+    }
+
+    .tableInfo th {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        background-color: #076e9f;
+        color: #ffffff;
+    }
+
+    .cell {
+        background-color: #c7e9fa;
+        width: 40px;
+        height: 19px;
+        text-align: center;
+        color: #5e9abe;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+    }
+
+    .cellBlue {
+        background-color: #b1e1f8;
+    }
+
+    table, td, th {
+        border: 1px solid #ffffff;
+    }
+
+    /*end left block*/
+}
+
+@media (min-width: 768px)and (max-width: 991px) {
+    /*left block*/
+    div#blockOne {
+        border-top: 3px solid #22a1de;
+    }
+
+    #itemOne {
+        height: 180px;
+        background-color: #ffffff;
+    }
+
+    #itemTwo {
+        height: 335px;
+        background-color: #ffffff;
+    }
+
+    #itemThree {
+        height: 207px;
+        background-color: #ffffff;
+    }
+
+    .nameItem {
+        height: 1500px;
+        font-family: 'League Gothic Condensed';
+        color: #076e9f;
+        width: 236px;
+        padding: 19px 17px 0 0;
+        margin: 0 0 0 36px;
+        border-right: 1px dotted #d5d5d5;
+        border-bottom: 1px dotted #d5d5d5;
+    }
+
+    .nameItem h2 {
+        margin: 0;
+        margin-bottom: 6px;
+
+    }
+
+    #sidebarDescription {
+        text-align: left;
+        color: #5c5c5c;
+        font-size: 10px;
+        font-family: Arial, sans-serif;
+    }
+
+    .letter {
+        color: #076e9f;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .relatedPostImg {
+        margin-top: 11px;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post1 {
+        position: relative;
+        width: 164px;
+    }
+
+    #post2 {
+        position: relative;
+        width: 164px;
+    }
+
+    #post3 {
+        position: relative;
+        width: 164px;
+    }
+
+    .post1Name {
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: #5c5c5c;
+        position: absolute;
+        right: 0;
+    }
+
+    .post1Name1 {
+        position: absolute;
+        top: 14px;
+        right: 16px;
+    }
+
+    .comments {
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        font-style: italic;
+        color: #5c5c5c;;
+        margin-left: 2px;
+    }
+
+    #post1Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post2Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post3Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    .tableInfo {
+        border-collapse: collapse;
+    }
+
+    .tableInfo th {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        background-color: #076e9f;
+        color: #ffffff;
+    }
+
+    .cell {
+        background-color: #c7e9fa;
+        width: 40px;
+        height: 19px;
+        text-align: center;
+        color: #5e9abe;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+    }
+
+    .cellBlue {
+        background-color: #b1e1f8;
+    }
+
+    table, td, th {
+        border: 1px solid #ffffff;
+    }
+
+    #blockOne {
+        height: 721px;
+    }
+
+    /*end left block*/
+}
+
+@media (max-width: 767px) {
+    /*left block*/
+    div#blockOne {
+        border-top: 3px solid #22a1de;
+        width: 272px;
+    }
+
+    #itemOne {
+        height: 180px;
+        background-color: #ffffff;
+    }
+
+    #itemTwo {
+        height: 335px;
+        background-color: #ffffff;
+    }
+
+    #itemThree {
+        height: 207px;
+        background-color: #ffffff;
+    }
+
+    .nameItem {
+        height: 1500px;
+        font-family: 'League Gothic Condensed';
+        color: #076e9f;
+        width: 236px;
+        padding: 19px 17px 0 0;
+        margin: 0 0 0 36px;
+        border-right: 1px dotted #d5d5d5;
+        border-bottom: 1px dotted #d5d5d5;
+    }
+
+    .nameItem h2 {
+        margin: 0;
+        margin-bottom: 6px;
+
+    }
+
+    #sidebarDescription {
+        text-align: left;
+        color: #5c5c5c;
+        font-size: 10px;
+        font-family: Arial, sans-serif;
+    }
+
+    .letter {
+        color: #076e9f;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .relatedPostImg {
+        margin-top: 11px;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post1 {
+        position: relative;
+        width: 164px;
+    }
+
+    #post2 {
+        position: relative;
+        width: 164px;
+    }
+
+    #post3 {
+        position: relative;
+        width: 164px;
+    }
+
+    .post1Name {
+
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 10px;
+        color: #5c5c5c;
+        position: absolute;
+        right: 0;
+    }
+
+    .post1Name1 {
+        position: absolute;
+        top: 14px;
+        right: 16px;
+    }
+
+    .comments {
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        font-style: italic;
+        color: #5c5c5c;;
+        margin-left: 2px;
+    }
+
+    #post1Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post2Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    #post3Img {
+        left: 0;
+        position: absolute;
+        width: 50px;
+        height: 40px;
+    }
+
+    .tableInfo {
+        border-collapse: collapse;
+    }
+
+    .tableInfo th {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        background-color: #076e9f;
+        color: #ffffff;
+    }
+
+    .cell {
+        background-color: #c7e9fa;
+        width: 40px;
+        height: 19px;
+        text-align: center;
+        color: #5e9abe;
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+    }
+
+    .cellBlue {
+        background-color: #b1e1f8;
+    }
+
+    table, td, th {
+        border: 1px solid #ffffff;
+    }
+
+    #blockOne {
+        height: 721px;
+    }
+
+    /*end left block*/
+}
