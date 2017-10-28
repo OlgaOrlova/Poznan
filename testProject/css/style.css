@@ -516,6 +516,67 @@ p#nameMainBanerSecond {
         background: #ebebea;
         height: 94px;
         width: 259px;
+
+    }
+
+    #four {
+        position: relative;
+    }
+
+    #three {
+        position: relative;
+    }
+
+    #two {
+        position: relative;
+    }
+
+    #one {
+        position: relative;
+    }
+
+    #about4 {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+
+        font-size: 9px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 100px;
+    }
+
+    #about3 {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+
+        font-size: 9px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 100px;
+    }
+
+    #about2 {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+
+        font-size: 9px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 100px;
+    }
+
+    #about1 {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+
+        font-size: 9px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 100px;
     }
 
     /*left block*/
@@ -1452,6 +1513,66 @@ p#nameMainBanerSecond {
 
     }
 
+    #four {
+        position: relative;
+    }
+
+    #three {
+        position: relative;
+    }
+
+    #two {
+        position: relative;
+    }
+
+    #one {
+        position: relative;
+    }
+
+    #about4 {
+        position: absolute;
+        top: 2px;
+        right: 1px;
+
+        font-size: 7px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 85px;
+    }
+
+    #about3 {
+        position: absolute;
+        top: 2px;
+        right: 1px;
+
+        font-size: 7px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 85px;
+    }
+
+    #about2 {
+        position: absolute;
+        top: 2px;
+        right: 1px;
+
+        font-size: 7px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 85px;
+    }
+
+    #about1 {
+        position: absolute;
+        top: 2px;
+        right: 1px;
+
+        font-size: 7px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 85px;
+    }
+
     #navbarBrand {
         width: 100%;
         position: relative;
@@ -1954,6 +2075,65 @@ p#nameMainBanerSecond {
         margin-top: 5px;
     }
 
+    #four {
+        position: relative;
+    }
+
+    #three {
+        position: relative;
+    }
+
+    #two {
+        position: relative;
+    }
+
+    #one {
+        position: relative;
+    }
+
+    #about4 {
+        position: absolute;
+        top: 2px;
+        right: 1px;
+
+        font-size: 7px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 80px;
+    }
+
+    #about3 {
+        position: absolute;
+        top: 2px;
+        right: 1px;
+
+        font-size: 7px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 80px;
+    }
+
+    #about2 {
+        position: absolute;
+        top: 2px;
+        right: 1px;
+
+        font-size: 7px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 80px;
+    }
+
+    #about1 {
+        position: absolute;
+        top: 2px;
+        right: 1px;
+
+        font-size: 7px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 80px;
+    }
     .noticeImg {
         height: 43px;
     }
