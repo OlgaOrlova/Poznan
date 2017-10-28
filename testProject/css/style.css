@@ -678,6 +678,11 @@ p#nameMainBanerSecond {
 @media (min-width: 992px)and (max-width: 1199px) {
 
     /*Second main senter post*/
+    #section2 {
+
+        border-top: 3px solid #22a1de;
+
+    }
     #secondCenterPost {
         border-bottom: 1px dotted #d5d5d5;
         border-left: 1px dotted #d5d5d5;
@@ -830,6 +835,7 @@ p#nameMainBanerSecond {
         border-right: 1px dotted #d5d5d5;
         border-bottom: 1px dotted #d5d5d5;
         border-left: 1px dotted #d5d5d5;
+        border-top: 2px solid #22a1de;
     }
 
     h2#mainPosHeading {
@@ -969,12 +975,74 @@ p#nameMainBanerSecond {
         width: 189px;
     }
 
+    #four {
+        position: relative;
+    }
+
+    #three {
+        position: relative;
+    }
+
+    #two {
+        position: relative;
+    }
+
+    #one {
+        position: relative;
+    }
+
+    #about4 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+
+        font-size: 9px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 100px;
+    }
+
+    #about3 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+
+        font-size: 9px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 100px;
+    }
+
+    #about2 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+
+        font-size: 9px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 100px;
+    }
+
+    #about1 {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+
+        font-size: 9px;
+        font-family: " Arial", sans-serif;
+        color: #767676;
+        width: 100px;
+    }
     /*left block*/
     #itemOne {
         height: 165px;
         background-color: #ffffff;
     }
 
+    div#blockOne {
+        border-top: 1px solid #22a1de;
+    }
     #itemTwo {
         height: 225px;
         background-color: #ffffff;
